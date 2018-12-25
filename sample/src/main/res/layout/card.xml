@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<link.fls.swipestack.util.MyFrameLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg">
+    <!--card_view:cardCornerRadius="@dimen/card_corner_radius"-->
+    <!--card_view:cardElevation="@dimen/elevation_large">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Hello"-->
+            <!--android:gravity="center"/>-->
+
+    <!--</LinearLayout>-->
+
+    <link.fls.swipestack.util.MyScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+
+    </link.fls.swipestack.util.MyScrollView>
+
+</link.fls.swipestack.util.MyFrameLayout>
